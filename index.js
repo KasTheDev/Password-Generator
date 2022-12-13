@@ -5,7 +5,7 @@ let passOne = document.getElementById("password-btn1")
 let passTwo = document.getElementById("password-btn2")
 let generateButton = document.getElementById("generate-btn")
 let isPopulated = false
-let copiedEl = document.getElementById("copied-el")
+
 
 generateButton.addEventListener("click", function () {
     if(isPopulated === false){
@@ -35,32 +35,17 @@ generateButton.addEventListener("click", function () {
 })
 
 passOne.addEventListener( "click" , function(){
-    // getting the text content that we want to copy
     const content = document.getElementById("password-btn1").textContent;    // loading the content into our clipboard
     navigator.clipboard.writeText(content);
+    alert("Password one copied.");
 })
 passTwo.addEventListener( "click" , function(){
-    // getting the text content that we want to copy
     const content = document.getElementById("password-btn2").textContent;    // loading the content into our clipboard
     navigator.clipboard.writeText(content);
+    alert("Password two copied.");
 })
 
-function copiedOne(){
-    copiedEl.textContent = "Password One Copied to Clipboard!"
-}
 
-function copiedTwo(){
-    copiedEl.textContent = "Password Two Copied to Clipboard!"
-}
-
-//function copyTextOne() {
-  //var copyTextOne = passOne.textContent; 
-  //console.log(copyTextOne)
-//}
-//function copyTextTwo() {
- // var copyTextTwo = passTwo.textContent;
- // console.log(copyTextTwo)
-//}
 
 
 
