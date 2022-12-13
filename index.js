@@ -35,12 +35,12 @@ generateButton.addEventListener("click", function () {
 })
 
 passOne.addEventListener( "click" , function(){
-    const content = document.getElementById("password-btn1").textContent;    // loading the content into our clipboard
+    const content = document.getElementById("password-btn1").textContent;    
     navigator.clipboard.writeText(content);
     alert("Password one copied.");
 })
 passTwo.addEventListener( "click" , function(){
-    const content = document.getElementById("password-btn2").textContent;    // loading the content into our clipboard
+    const content = document.getElementById("password-btn2").textContent;    
     navigator.clipboard.writeText(content);
     alert("Password two copied.");
 })
