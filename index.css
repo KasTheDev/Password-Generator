@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+body {
+    margin: 0;
+    background-color: #1F2937;
+}
+
+
+.container{
+    margin-left: 52px;
+    letter-spacing: -0.025em;
+    margin-top: 115px;
+}
+
+h1{
+    font-family: "Karla";
+    font-size: 30px;
+    color: white;
+    margin-bottom: -31px;
+}
+
+h2{
+    font-family: "Karla";
+    font-size: 30px;
+    color: #10B981; 
+    margin-bottom: 10px;  
+}
+
+h3{
+    font-family: "Inter";
+    font-size: 20px;
+    color: #D5D4D8;
+    font-weight: 400;
+    line-height: 28px;
+    font-style: normal;
+    top: 205px;
+}
+
+button{
+   
+
+}
+hr{
+    width: 446px;
+    height: 0px;
+    left: 52px;
+    top: 361px;
+
+    border: 1px solid #2F3E53;
+
+}
+
+#generate-btn{
+    color: white;
+    font-family: "Inter";
+    top: 284px;
+    width: 191px;
+    height: 42px;
+    background: #10B981;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 17px 9px 15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border: none;
+    margin-bottom: 35px;
+    border-radius: 6px;
+}
+
+#password-btn1{
+    background: #273549;
+    font-family: "Inter";
+    color: #55F991;
+    width: 211px;
+    height: 39px;
+    left: 52px;
+    top: 396px;
+    margin-left: 52px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#password-btn2{
+    background: #273549;
+    font-family: "Inter";
+    color: #55F991;
+    width: 211px;
+    height: 39px;
+    left: 287px;
+    top: 396px;
+    margin-left: 24px;
+    border-radius: 6px;
+    margin-left: 52px;
+    
+
+}
+
+p{
+    color: white;
+    font-family: "Inter";
+    margin-left: 170px;
+    text-align: center;
+    width: 210px;
+    height: 39px;
+    border-style: solid;
+    border-color: #55F991;
+    border-radius: 6px;
+    
+}
